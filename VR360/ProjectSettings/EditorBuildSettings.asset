@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/VR.unity
-    guid: d1a1c03eaeb27924a8f7cac1f7635e9d
+    path: "Assets/360 \u5834\u666F.unity"
+    guid: 45def924423e54c43935fb5c5b3bf761
   m_configObjects: {}
