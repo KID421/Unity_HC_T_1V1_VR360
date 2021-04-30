@@ -10,6 +10,9 @@ public class GM : MonoBehaviour
     public VideoPlayer player360;
     public VideoPlayer player2D;
 
+    public GameObject obj360small;
+    public GameObject obj2Dbig;
+
     private bool mute;
 
     public void AddScore()
@@ -23,5 +26,8 @@ public class GM : MonoBehaviour
         mute = !mute;                           // 靜音相反
         player360.SetDirectAudioMute(0, mute);  // 360
         player2D.SetDirectAudioMute(0, !mute);  // 2D
+
+        obj360small.SetActive(mute);
+        obj2Dbig.SetActive(mute);
     }
 }
